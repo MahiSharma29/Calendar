@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>हिन्दू पंचांग · Hindu Panchang</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪔</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="wrap">
+ <div class="top">
+  <div class="brand"><b class="dv">ॐ</b><div><h1 class="dv" id="ttl"></h1><small id="stl"></small></div></div>
+  <div class="ctrl">
+   <button id="lang" aria-label="Language"></button>
+   <select id="city"></select><select id="reg"></select><select id="mode"></select>
+   <button id="theme"></button><button id="prt"></button>
+  </div>
+ </div>
+ <div class="hero"><div><h2 class="dv" id="hl"></h2><p id="hs"></p></div><div class="chips" id="chips"></div></div>
+</div></header>
+<main>
+ <div class="col">
+  <section class="card" aria-label="calendar">
+   <div class="nav">
+    <div><h3 class="dv" id="mt"></h3><div class="sub" id="ms"></div></div>
+    <div class="b"><button id="pv">‹</button><select id="mo"></select><select id="yr"></select><button id="nx">›</button><button id="td"></button></div>
+   </div>
+   <div class="grid" id="g"></div>
+   <p class="leg" id="leg"></p>
+  </section>
+  <section class="card" id="chc"></section>
+ </div>
+ <div class="col">
+  <section class="card sd" id="sd" aria-live="polite"></section>
+  <section class="card" id="mc"></section>
+  <section class="card"><h3 class="ct dv" id="fht"></h3><ul class="fl" id="fl"></ul></section>
+ </div>
+</main>
+<footer id="ft"></footer>
+<script src="js/data.js"></script>
+<script src="js/calc.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

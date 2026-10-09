@@ -1,0 +1,44 @@
+/* data.js – naam, anuvaad (Hindi/English) aur tyohaar ki suchi */
+const WD=[["रविवार","Sunday"],["सोमवार","Monday"],["मंगलवार","Tuesday"],["बुधवार","Wednesday"],["गुरुवार","Thursday"],["शुक्रवार","Friday"],["शनिवार","Saturday"]];
+const WDS=[["रवि","Sun"],["सोम","Mon"],["मंगल","Tue"],["बुध","Wed"],["गुरु","Thu"],["शुक्र","Fri"],["शनि","Sat"]];
+const GM=[["जनवरी","January"],["फ़रवरी","February"],["मार्च","March"],["अप्रैल","April"],["मई","May"],["जून","June"],["जुलाई","July"],["अगस्त","August"],["सितम्बर","September"],["अक्टूबर","October"],["नवम्बर","November"],["दिसम्बर","December"]];
+const HM=[["चैत्र","Chaitra"],["वैशाख","Vaishakha"],["ज्येष्ठ","Jyeshtha"],["आषाढ़","Ashadha"],["श्रावण","Shravana"],["भाद्रपद","Bhadrapada"],["आश्विन","Ashwin"],["कार्तिक","Kartik"],["मार्गशीर्ष","Margashirsha"],["पौष","Pausha"],["माघ","Magha"],["फाल्गुन","Phalguna"]];
+const TN=[["प्रतिपदा","Pratipada"],["द्वितीया","Dwitiya"],["तृतीया","Tritiya"],["चतुर्थी","Chaturthi"],["पंचमी","Panchami"],["षष्ठी","Shashthi"],["सप्तमी","Saptami"],["अष्टमी","Ashtami"],["नवमी","Navami"],["दशमी","Dashami"],["एकादशी","Ekadashi"],["द्वादशी","Dwadashi"],["त्रयोदशी","Trayodashi"],["चतुर्दशी","Chaturdashi"]];
+const NK=[["अश्विनी","Ashwini"],["भरणी","Bharani"],["कृत्तिका","Krittika"],["रोहिणी","Rohini"],["मृगशिरा","Mrigashira"],["आर्द्रा","Ardra"],["पुनर्वसु","Punarvasu"],["पुष्य","Pushya"],["आश्लेषा","Ashlesha"],["मघा","Magha"],["पूर्वा फाल्गुनी","Purva Phalguni"],["उत्तरा फाल्गुनी","Uttara Phalguni"],["हस्त","Hasta"],["चित्रा","Chitra"],["स्वाति","Swati"],["विशाखा","Vishakha"],["अनुराधा","Anuradha"],["ज्येष्ठा","Jyeshtha"],["मूल","Mula"],["पूर्वाषाढ़ा","Purva Ashadha"],["उत्तराषाढ़ा","Uttara Ashadha"],["श्रवण","Shravana"],["धनिष्ठा","Dhanishta"],["शतभिषा","Shatabhisha"],["पूर्वा भाद्रपद","Purva Bhadrapada"],["उत्तरा भाद्रपद","Uttara Bhadrapada"],["रेवती","Revati"]];
+const YG=[["विष्कम्भ","Vishkambha"],["प्रीति","Priti"],["आयुष्मान","Ayushman"],["सौभाग्य","Saubhagya"],["शोभन","Shobhana"],["अतिगण्ड","Atiganda"],["सुकर्मा","Sukarma"],["धृति","Dhriti"],["शूल","Shula"],["गण्ड","Ganda"],["वृद्धि","Vriddhi"],["ध्रुव","Dhruva"],["व्याघात","Vyaghata"],["हर्षण","Harshana"],["वज्र","Vajra"],["सिद्धि","Siddhi"],["व्यतीपात","Vyatipata"],["वरीयान","Variyan"],["परिघ","Parigha"],["शिव","Shiva"],["सिद्ध","Siddha"],["साध्य","Sadhya"],["शुभ","Shubha"],["शुक्ल","Shukla"],["ब्रह्म","Brahma"],["इन्द्र","Indra"],["वैधृति","Vaidhriti"]];
+const KR=[["बव","Bava"],["बालव","Balava"],["कौलव","Kaulava"],["तैतिल","Taitila"],["गर","Garaja"],["वणिज","Vanija"],["विष्टि (भद्रा)","Vishti (Bhadra)"]];
+const KRF=[["किंस्तुघ्न","Kimstughna"],["शकुनि","Shakuni"],["चतुष्पाद","Chatushpada"],["नाग","Naga"]];
+const RS=[["मेष","Mesha (Aries)"],["वृषभ","Vrishabha (Taurus)"],["मिथुन","Mithuna (Gemini)"],["कर्क","Karka (Cancer)"],["सिंह","Simha (Leo)"],["कन्या","Kanya (Virgo)"],["तुला","Tula (Libra)"],["वृश्चिक","Vrishchika (Scorpio)"],["धनु","Dhanu (Sagittarius)"],["मकर","Makara (Capricorn)"],["कुम्भ","Kumbha (Aquarius)"],["मीन","Meena (Pisces)"]];
+const CHN=[["उद्वेग","Udveg"],["चल","Chal"],["लाभ","Labh"],["अमृत","Amrit"],["काल","Kaal"],["शुभ","Shubh"],["रोग","Rog"]];
+const REGIONS=[["all","सभी क्षेत्र","All regions"],["north","उत्तर भारत","North India"],["raj","राजस्थान / मेवाड़","Rajasthan / Mewar"],["guj","गुजरात","Gujarat"],["mah","महाराष्ट्र","Maharashtra"],["ben","बंगाल","Bengal"],["odi","ओडिशा","Odisha"],["south","दक्षिण भारत","South India"]];
+const CITIES=[["उदयपुर","Udaipur",24.585,73.712],["जयपुर","Jaipur",26.91,75.79],["जोधपुर","Jodhpur",26.24,73.02],["दिल्ली","Delhi",28.61,77.21],["मुम्बई","Mumbai",19.08,72.88],["अहमदाबाद","Ahmedabad",23.02,72.57],["पुणे","Pune",18.52,73.86],["वाराणसी","Varanasi",25.32,83.0],["पटना","Patna",25.59,85.14],["कोलकाता","Kolkata",22.57,88.36],["भुवनेश्वर","Bhubaneswar",20.3,85.82],["चेन्नई","Chennai",13.08,80.27],["बेंगलुरु","Bengaluru",12.97,77.59],["हैदराबाद","Hyderabad",17.39,78.49]];
+/* FEST: [amanta maas(0=चैत्र), tithi(1-30), Hindi, English, kshetra, samay('sr' suryoday | 'pd' pradosh | 'ni' nishita)] */
+const FEST=[
+[0,1,"हिन्दू नव वर्ष · चैत्र नवरात्रि आरम्भ","Hindu New Year · Chaitra Navratri begins","pan"],
+[0,1,"गुड़ी पड़वा","Gudi Padwa","mah"],[0,1,"उगादि","Ugadi","south"],
+[0,3,"गणगौर · मेवाड़ उत्सव","Gangaur · Mewar Festival","raj"],
+[0,9,"राम नवमी","Ram Navami","pan","md"],[0,13,"महावीर जयन्ती","Mahavir Jayanti","pan"],[0,15,"हनुमान जयन्ती","Hanuman Jayanti","pan"],
+[1,3,"अक्षय तृतीया · परशुराम जयन्ती","Akshaya Tritiya · Parashurama Jayanti","pan"],[1,14,"नृसिंह जयन्ती","Narasimha Jayanti","pan"],[1,15,"बुद्ध पूर्णिमा","Buddha Purnima","pan"],
+[2,3,"महाराणा प्रताप जयन्ती (तिथि)","Maharana Pratap Jayanti (by tithi)","raj"],[2,10,"गंगा दशहरा","Ganga Dussehra","north"],[2,11,"निर्जला एकादशी","Nirjala Ekadashi","pan"],
+[2,15,"वट पूर्णिमा","Vat Purnima","mah,guj"],[2,15,"स्नान पूर्णिमा","Snana Purnima","odi"],[2,30,"वट सावित्री व्रत","Vat Savitri Vrat","north,raj"],
+[3,2,"रथ यात्रा","Rath Yatra","odi,pan"],[3,11,"देवशयनी एकादशी","Devshayani Ekadashi","pan"],[3,15,"गुरु पूर्णिमा","Guru Purnima","pan"],
+[4,3,"हरियाली तीज","Hariyali Teej","north,raj"],[4,5,"नाग पंचमी","Nag Panchami","pan"],[4,15,"रक्षा बन्धन","Raksha Bandhan","pan"],
+[4,18,"कजरी तीज","Kajari Teej","north,raj"],[4,23,"कृष्ण जन्माष्टमी","Krishna Janmashtami","pan","ni"],[4,24,"गोगा नवमी","Goga Navami","raj"],[4,30,"हरियाली अमावस्या","Hariyali Amavasya","raj,north"],
+[5,2,"रामदेवरा मेला (बीज)","Ramdevra Mela (Beej)","raj"],[5,3,"हरतालिका तीज","Hartalika Teej","north,raj,mah"],[5,4,"गणेश चतुर्थी","Ganesh Chaturthi","pan","md"],[5,5,"ऋषि पंचमी","Rishi Panchami","pan"],
+[5,8,"राधा अष्टमी","Radha Ashtami","north"],[5,11,"परिवर्तिनी (डोल) एकादशी","Parivartini (Dol) Ekadashi","pan"],[5,14,"अनन्त चतुर्दशी","Anant Chaturdashi","pan"],
+[5,15,"पितृ पक्ष आरम्भ","Pitru Paksha begins","pan"],[5,30,"सर्वपितृ अमावस्या · महालया","Sarva Pitru Amavasya · Mahalaya","pan"],
+[6,1,"शारदीय नवरात्रि · घटस्थापना","Sharadiya Navratri · Ghatasthapana","pan"],[6,1,"गरबा आरम्भ","Garba begins","guj"],[6,6,"दुर्गा पूजा आरम्भ","Durga Puja begins","ben,odi"],
+[6,7,"महा सप्तमी","Maha Saptami","ben,odi"],[6,8,"दुर्गा अष्टमी","Durga Ashtami","pan"],[6,9,"महा नवमी","Maha Navami","pan"],[6,10,"विजयादशमी (दशहरा)","Vijayadashami (Dussehra)","pan","ap"],
+[6,15,"शरद पूर्णिमा","Sharad Purnima","pan"],[6,15,"कोजागरी लक्ष्मी पूजा","Kojagari Lakshmi Puja","ben,odi"],[6,19,"करवा चौथ","Karwa Chauth","north,raj","pd"],[6,23,"अहोई अष्टमी","Ahoi Ashtami","north","pd"],
+[6,28,"धनतेरस","Dhanteras","pan","pd"],[6,29,"नरक चतुर्दशी · छोटी दिवाली","Naraka Chaturdashi · Choti Diwali","pan"],[6,30,"दीपावली · लक्ष्मी पूजन","Diwali · Lakshmi Puja","pan","pd"],[6,30,"काली पूजा","Kali Puja","ben,odi","ni"],
+[7,1,"गोवर्धन पूजा · अन्नकूट","Govardhan Puja · Annakut","north,raj"],[7,1,"बेस्तु वरस (गुजराती नव वर्ष)","Bestu Varas (Gujarati New Year)","guj"],[7,2,"भाई दूज","Bhai Dooj","pan"],[7,5,"लाभ पंचम","Labh Pancham","guj"],
+[7,6,"छठ पूजा","Chhath Puja","north"],[7,8,"गोपाष्टमी","Gopashtami","north"],[7,9,"अक्षय नवमी","Akshaya Navami","north"],[7,11,"देवउठनी एकादशी","Dev Uthani Ekadashi","pan"],[7,12,"तुलसी विवाह","Tulsi Vivah","pan"],
+[7,15,"कार्तिक पूर्णिमा · देव दीपावली","Kartik Purnima · Dev Deepawali","north"],[7,15,"पुष्कर मेला (समापन)","Pushkar Mela (concludes)","raj"],[7,15,"कार्तिगै दीपम","Karthigai Deepam","south"],[7,15,"गुरु नानक जयन्ती","Guru Nanak Jayanti","north"],[7,23,"काल भैरव जयन्ती","Kalabhairava Jayanti","pan"],
+[8,5,"विवाह पंचमी","Vivah Panchami","north"],[8,11,"मोक्षदा एकादशी · गीता जयन्ती","Mokshada Ekadashi · Gita Jayanti","pan"],[8,11,"वैकुण्ठ एकादशी","Vaikuntha Ekadashi","south"],[8,15,"दत्तात्रेय जयन्ती","Dattatreya Jayanti","mah,guj"],
+[9,15,"पौष पूर्णिमा","Pausha Purnima","pan"],[9,19,"सकट चौथ","Sakat Chauth","north,raj","pd"],
+[10,4,"माघी गणेश जयन्ती","Maghi Ganesh Jayanti","mah"],[10,5,"वसन्त पंचमी · सरस्वती पूजा","Vasant Panchami · Saraswati Puja","pan"],[10,7,"रथ सप्तमी","Ratha Saptami","south"],
+[10,15,"माघ पूर्णिमा · रविदास जयन्ती","Magha Purnima · Ravidas Jayanti","north"],[10,29,"महाशिवरात्रि","Maha Shivaratri","pan","ni"],
+[11,9,"लट्ठमार होली (बरसाना)","Lathmar Holi (Barsana)","north"],[11,11,"आमलकी एकादशी","Amalaki Ekadashi","pan"],[11,15,"होलिका दहन","Holika Dahan","pan","pd"],[11,15,"डोल जात्रा","Dol Jatra","ben,odi"],
+[11,16,"होली (धुलण्डी)","Holi (Dhulandi)","pan"],[11,20,"रंग पंचमी","Rang Panchami","mah"],[11,22,"शीतला सप्तमी","Sheetla Saptami","raj,north"],[11,23,"शीतला अष्टमी (बासोड़ा)","Sheetla Ashtami (Basoda)","raj,north,guj"]
+];
+const SANK_SPECIAL={9:["मकर संक्रान्ति · पोंगल · उत्तरायण · माघ बिहू","Makar Sankranti · Pongal · Uttarayan · Magh Bihu","pan"],0:["मेष संक्रान्ति · वैसाखी · विशु · पुथांडु · पोइला बोइशाख","Mesha Sankranti · Vaisakhi · Vishu · Puthandu · Pohela Boishakh","pan"],3:["कर्क संक्रान्ति (दक्षिणायन आरम्भ)","Karka Sankranti (Dakshinayana begins)","pan"]};
